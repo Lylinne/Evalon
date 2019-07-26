@@ -78,8 +78,10 @@ Un Otome Game est un jeu de rôle qui peut être animé ou sans transition, dans
 - Bonus aléatoire
 
 
+## Maquette Mobile First
 
-
-
-
+![Maquette mobile](www/public/assets/img/maquette/MaquetteM1.png "Maquette mobile")
+![Maquette mobile](www/public/assets/img/maquette/MaquetteM2.png "Maquette mobile")
+![Maquette mobile](www/public/assets/img/maquette/MaquetteM3.png "Maquette mobile")
+![Maquette mobile](www/public/assets/img/maquette/MaquetteM4.png "Maquette mobile")
 
