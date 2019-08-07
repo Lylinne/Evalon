@@ -8,5 +8,14 @@ $app->setStartTime();
 $app::load();
 
 $app->getRouter($basePath)
-    ->get('/blog', 'Post#all', 'home')
+    ->get('/', 'Home#all', 'home')
+    ->get('/user', 'User#login', 'userLogin')
+    ->get('/subscrib', 'UserInfos#subscrib', 'subscrib')
+    ->get('/profil', 'Profil#infos', 'profil')
+    ->get('/chambre', 'Loft#chambre', 'chambre')
+    ->get('/episode', 'Episode#jouer', 'episode')
+
+
+
+    ->post('/subscrib', 'UserInfos#subscrib', 'infossubscrib')
     ->run();

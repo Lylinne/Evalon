@@ -1,0 +1,35 @@
+{% extends "layout/default.twig" %}
+
+{% block content %}
+
+	<section>
+		{% for success in flash("success") %}
+		<div class="alert alert-success text-center col-4 offset-4 mt-2" role="alert">
+			{{ success }}
+		</div>
+		{% endfor %}
+		{% for errors in flash("alert") %}
+		<div class="alert alert-danger text-center col-4 offset-4 mt-2" role="alert">
+			{{ errors }}
+		</div>
+		{% endfor %}
+		<article>
+			<div id="resume">
+				<p>CRÉE TA PROPRE AVENTURE À ANTEROS ACADEMY ET VIS DES HISTOIRES D'AMOUR ÉPIQUE ET PALPITANTE!</p>
+				<p>TA SUCRETTE VIENT D'UN AUTRE MONDE PARVIENDRAS TU AS RENTRER CHEZ TOI ?</p>
+			</div>
+			<figure><iframe src="https://www.youtube.com/embed/-zZRpjmD7dA" frameborder="0" 
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" 
+			allowfullscreen></iframe></figure>
+		</article>
+
+		<article>
+			<div id="perso">
+				<img src="http://ekladata.com/L6QSAEYigCO1yRPz6uEm-HzfAuE.png" alt="personage"/>
+				<img src="http://static1.wikia.nocookie.net/__cb20130331071426/amordoce/images/1/11/LysandreE3.png" alt="personage"/>
+				<img src="http://ekladata.com/mcGwusXYnbSpTAElgJEmteLJNZg.png" alt="personage"/>
+			</div>
+			<button class="jouer" type="button">JOUER</button>
+		</article>
+	</section>
+{% endblock %}

@@ -37,10 +37,10 @@ class URLController
     public static function getUri(string $name, array $params = []): string
     {
         
-        $uri = $_SERVER["REQUEST_SCHEME"] . "://" . $_SERVER["HTTP_HOST"];
+        $uri = $_SERVER["HTTP_X_FORWARDED_PROTO"] . "://" . $_SERVER["HTTP_HOST"];
         //$folder = $this->generateUrl($name, $params);
         $folder = \App\App::getInstance()->getRouter()->url($name, $params);
 
-        return $uri. $folder;
+        return $uri."/".$folder;
     }
 }

@@ -1,0 +1,27 @@
+{% extends "layout/default.twig" %}
+
+{% block content %}
+    <section id='subscrib'>
+        <form method="POST" action="">
+            <label for="name">Pseudo</label>
+            <input type="text" name="name" placeholder="Nisaki"  id="name" maxlength="10" required/>
+
+            <label for="email">E-mail</label>
+            <input type="email"  name="email" placeholder="Votre courriel" placeholder="exemple@email.fr" id="email" required/>
+
+            <label for="verify_mail">Confirmer mail</label>
+            <input type="email" name="verify_mail" placeholder="Votre courriel" placeholder="exemple@email.fr" id="verify_mail" required/>
+
+
+            <label for="passeword">MDP</label>
+            <input type="password"  name="password" placeholder="Mot de Passe" id="passeword" required/>
+
+            <label for="verify_passeword">Confimer MDP</label>
+            <input type="password" name="verify_password"  placeholder="Mot de Passe" id="verify_passeword" required/>
+
+            
+            <button name="subscrib" value="subscrib" type="submit" id="inscription">C'est partis</button>
+        </form>
+    </section>
+
+{% endblock %}

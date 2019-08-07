@@ -6,7 +6,7 @@ Un Otome Game est un jeu de rôle qui peut être animé ou sans transition, dans
 
 ###### https://fr.wikipedia.org/wiki/Jeu_vid%C3%A9o_otome
 
-## Titre du site : 
+## Titre : 
 
 #### EVALON
 
@@ -85,3 +85,12 @@ Un Otome Game est un jeu de rôle qui peut être animé ou sans transition, dans
 ![Maquette mobile](www/public/assets/img/maquette/MaquetteM3.png "Maquette mobile")
 ![Maquette mobile](www/public/assets/img/maquette/MaquetteM4.png "Maquette mobile")
 
+##Maquette PC
+
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC1.png "Maquette PC")
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC2.png "Maquette PC")
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC3.png "Maquette PC")
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC4.png "Maquette PC")
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC5.png "Maquette PC")
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC6.png "Maquette PC")
+![Maquette PC](www/public/assets/img/maquettePC/MaquettePC7.png "Maquette PC")

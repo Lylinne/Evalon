@@ -19,7 +19,7 @@ docker exec $CONTAINER_NAME composer update
 sleep 4;
 
 if [ $ENV_DEV == true ]; then
-    docker exec $CONTAINER_NAME commande/createsql --demo
+    docker exec $CONTAINER_NAME commande/createsql
 else
     docker exec $CONTAINER_NAME commande/createsql
 fi

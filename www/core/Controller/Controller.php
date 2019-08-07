@@ -65,4 +65,12 @@ abstract class Controller
     {
         return  URLController::getUri($name, $params);
     }
+    
+    protected function messageFlash()
+    {
+        if(is_null($this->messageFlash)) {
+            $this->messageFlash = new FlashController();
+        }
+        return $this->messageFlash;
+    }
 }

@@ -1,0 +1,22 @@
+body{
+    background-image: url('https://i.pinimg.com/originals/47/9e/20/479e20a7147c6cfac57a3fa8796d0edb.jpg');
+}
+#connect{
+    width: 80%;
+    height: 40vh;
+    margin-left: 10%;
+    text-align: center;
+    border: 1px solid rgba(255, 255, 255, 0.589);
+    background-color: rgba(255, 255, 255, 0.589);
+}
+form{
+    width: 20%;
+    margin-left: 20%;
+    margin-top: 10%;
+}
+
+#connecte{
+    width: 30%;
+    height: 30%;
+    margin-left: 38%;
+}

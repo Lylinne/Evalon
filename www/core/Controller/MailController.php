@@ -46,9 +46,9 @@ class MailController extends Controller
         return $this;
     }
 
-    public function to(string $mail): self
+    public function to(string $email): self
     {
-        $this->message->setTo($mail);
+        $this->message->setTo($email);
         return $this;
     }
 
@@ -57,14 +57,14 @@ class MailController extends Controller
         $this->mailService->send($this->message);
     }
 
-    public function message(string $template, array $datas = null): self
+    public function message(string $template, array $users = null): self
     {
         $this->message->setBody(
-            $this->render("email/".$template.".html", $datas),
+            $this->render("email/".$template.".html", $users),
             "text/html"
         );
         $this->message->addPart(
-            $this->render("email/".$template.".txt", $datas),
+            $this->render("email/".$template.".txt", $users),
             "text/plain"
         );
         return $this;
